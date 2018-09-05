@@ -10,6 +10,27 @@ namespace Spel
     {
         static void Main(string[] args)
         {
+            Initialize();
+            
+            while (true)
+            {
+                Update();
+                Draw();
+            }
+        }
+
+        static void Initialize()
+        {
+
+        }
+        static void Update()
+        {
+
+        }
+
+        static void Draw()
+        {
+
         }
     }
 }
